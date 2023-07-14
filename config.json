@@ -1,10 +1,11 @@
 {
+  
   "$schema": "https://raw.githubusercontent.com/LuaLS/LLS-Addons/main/schemas/addon_config.schema.json",
-  "words": ["my-http-addon", "%s+-http%-addon"],
-  "files": ["network.lua"],
+  "name": "REFramework LLS addon",
+  "words": ["re.on_frame","re.on_application_entry","re.on_draw_ui","get_managed_singleton"],
+  "files": ["GameObject.lua","ManagedObjectDict.lua","RE2.lua","RE4.lua","RE7.lua","RE8.lua","Statics.lua"],
   "settings": {
     "Lua.workspace.preloadFileSize": 5000,
-    "Lua.workspace.ignoreDir": ["ignore-me"],
     "Lua.diagnostics.groupSeverity": {
       "await": "Error"
     }
