@@ -1,5 +1,5 @@
 {
     "$schema": "https://github.com/LuaLS/LLS-Addons/blob/main/schemas/addon_info.schema.json",
-    "name":"REFramework LLS addon",
-    "description":"Autocomplete functionality for RE Framework lua scripting system."
+    "name":"REFramework",
+    "description":"Definitions for REFramework's lua APIs."
 }

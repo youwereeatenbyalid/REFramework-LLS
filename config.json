@@ -1,12 +1,8 @@
 {
   
   "$schema": "https://raw.githubusercontent.com/LuaLS/LLS-Addons/main/schemas/addon_config.schema.json",
-  "name": "REFramework LLS addon",
+  "name": "REFramework",
   "words": ["re%.[%w_]*","sdk%.[%w_]*","imgui%.[%w_]*"],
   "settings": {
-    "Lua.workspace.preloadFileSize": 5000,
-    "Lua.diagnostics.groupSeverity": {
-      "await": "Error"
-    }
   }
 }
