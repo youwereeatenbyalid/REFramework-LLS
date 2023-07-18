@@ -258,7 +258,7 @@ end
 ---@param method_definition REMethodDefinition --method to hook
 ---@param pre_function fun(args:void_ptr[]) runs before start of hooked function
 ---@param post_function fun(retval): void_ptr runs after end of hooked function
----@param ignore_jmp boolean Skips trying to follow the first jmp in the function. Defaults to false.
+---@param ignore_jmp? boolean Skips trying to follow the first jmp in the function. Defaults to false.
 function sdk.hook(method_definition, pre_function, post_function, ignore_jmp) end
 
 --Similar to sdk.hook but hooks on a per-object basis instead, instead of hooking the function globally for all objects.
